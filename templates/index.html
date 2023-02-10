@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playground (Optional)</title>
+<!-- styled in html not css have not learned how to link a css sheet yet and im tired :/ -->
+    <style>
+        .bluebox {
+            height: 100px;
+            width: 100px;
+            background-color: lightblue;
+            background-color: {{boxColor}};
+            border: 3px solid black;
+            display: inline-block;}
+    </style>
+
+</head>
+/*       my portalsss yayayayayayayaayyyy */
+<body>
+    <div class="wrapper">
+        <h3>Magical Boxes!!!!!! did not have fun this assgn :/ </h3>
+        {% if numTimes %}
+            {% for x in range(0,numTimes): %}
+                <div class="bluebox"></div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+
+</body>
+</html>
